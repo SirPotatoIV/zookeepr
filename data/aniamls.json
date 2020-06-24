@@ -110,12 +110,11 @@
       "id": "10"
     },
     {
-      "name": "Jake",
-      "species": "human",
-      "diet": "omnivore",
+      "name": "Joe",
+      "species": "Liger",
+      "diet": "carnivore",
       "personalityTraits": [
-        "hungry",
-        "spicy"
+        "goofy"
       ],
       "id": "11"
     }
