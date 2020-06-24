@@ -122,6 +122,16 @@ app.get('/', (req, res)=>{
     res.sendFile(path.join(__dirname, './public/index.html'))
 })
 
+// serves animals.html file to client
+app.get('/animals', (req, res)=>{
+    res.sendFile(path.join(__dirname, './public/animals.html'))
+})
+
+// serves zookeeprs.html file to client
+app.get('/zookeepers', (req, res)=>{
+    res.sendFile(path.join(__dirname, './public/zookeepers.html'))
+})
+
 app.listen(PORT, ()=>{
     console.log(`API server now on port ${PORT}!`);
 })
