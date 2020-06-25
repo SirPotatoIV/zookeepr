@@ -2,9 +2,9 @@ const fs = require('fs');
 const { filterByQuery, findById, createNewAnimal, validateAnimal } = require('../lib/animals');
 const { animals } = require('../data/animals');
 
-// CODE COPY/PASTED FROM TUTORIAL
-
 jest.mock('fs');
+
+// CODE COPY/PASTED FROM TUTORIAL
 
 test("creates an animal object", () => {
     const animal = createNewAnimal(
